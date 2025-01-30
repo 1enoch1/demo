@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "jsx": "react",
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitThis": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "skipLibCheck": true,
+        "forceConsistentCasingInFileNames": true,
+        "baseUrl": ".",
+        "paths": {
+            "*": ["*"]
+        },
+
+        /* Language and Environment */
+        "target": "ES2020" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+        /* Modules */
+        "module": "ESNext" /* Specify what module code is generated. */,
+        "moduleResolution": "node",
+        "types": ["vite/client"]
+    },
+    "include": ["resources/assets", "resources/js"],
+    "exclude": ["node_modules"]
+}

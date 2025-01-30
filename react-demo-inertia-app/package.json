@@ -3,21 +3,25 @@
     "type": "module",
     "scripts": {
         "build": "vite build",
-        "dev": "vite"
+        "dev": "vite",
+        "tsc": "tsc"
     },
     "devDependencies": {
+        "@types/react": "^19.0.8",
+        "@types/react-dom": "^19.0.3",
+        "@vitejs/plugin-react": "^4.3.4",
         "autoprefixer": "^10.4.20",
         "axios": "^1.7.4",
         "concurrently": "^9.0.1",
         "laravel-vite-plugin": "^1.2.0",
         "postcss": "^8.4.47",
+        "sass": "^1.83.4",
         "tailwindcss": "^3.4.13",
+        "typescript": "^5.7.3",
         "vite": "^6.0.11"
     },
     "dependencies": {
-        "@inertiajs/inertia-react": "^0.8.1",
         "@inertiajs/react": "^2.0.3",
-        "@vitejs/plugin-react": "^4.3.4",
         "react": "^19.0.0",
         "react-dom": "^19.0.0"
     }

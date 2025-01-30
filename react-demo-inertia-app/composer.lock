@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6f199b8b22b244ae28917899b1537a8f",
+    "content-hash": "de2e12a115d13fc3adbe4b4c88ce0582",
     "packages": [
         {
             "name": "brick/math",
@@ -2079,44 +2079,6 @@
                 }
             ],
             "time": "2024-12-08T08:18:47+00:00"
-        },
-        {
-            "name": "mindplay/php-vite",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/mindplay-dk/php-vite.git",
-                "reference": "f9416949acd4652d322793055e2e7661648bd69c"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/mindplay-dk/php-vite/zipball/f9416949acd4652d322793055e2e7661648bd69c",
-                "reference": "f9416949acd4652d322793055e2e7661648bd69c",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=8.1"
-            },
-            "require-dev": {
-                "mindplay/testies": "^1.1",
-                "phpunit/php-code-coverage": "^10"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "mindplay\\vite\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MPL-2.0"
-            ],
-            "description": "a lightweight PHP-backend integration for the Vite frontend build tool",
-            "support": {
-                "issues": "https://github.com/mindplay-dk/php-vite/issues",
-                "source": "https://github.com/mindplay-dk/php-vite/tree/1.0.1"
-            },
-            "time": "2024-10-08T10:42:03+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -6988,16 +6950,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "11.5.4",
+            "version": "11.5.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "e0da3559ec50a91f6a6a201473b607b5ccfd9a1b"
+                "reference": "b9a975972f580c0491f834eb0818ad2b32fd8bba"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/e0da3559ec50a91f6a6a201473b607b5ccfd9a1b",
-                "reference": "e0da3559ec50a91f6a6a201473b607b5ccfd9a1b",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/b9a975972f580c0491f834eb0818ad2b32fd8bba",
+                "reference": "b9a975972f580c0491f834eb0818ad2b32fd8bba",
                 "shasum": ""
             },
             "require": {
@@ -7069,7 +7031,7 @@
             "support": {
                 "issues": "https://github.com/sebastianbergmann/phpunit/issues",
                 "security": "https://github.com/sebastianbergmann/phpunit/security/policy",
-                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.4"
+                "source": "https://github.com/sebastianbergmann/phpunit/tree/11.5.5"
             },
             "funding": [
                 {
@@ -7085,7 +7047,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2025-01-28T15:03:46+00:00"
+            "time": "2025-01-29T14:01:11+00:00"
         },
         {
             "name": "sebastian/cli-parser",
