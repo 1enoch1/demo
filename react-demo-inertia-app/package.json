@@ -2,7 +2,10 @@
     "private": true,
     "type": "module",
     "scripts": {
-        "build": "vite build",
+        "build-vite": "vite build",
+        "build": "npx tailwindcss -i ./src/tailwind.css -o ./public/style.css --watch",
+        "build-p": "postcss ./src/tailwind.css -o ./public/style.css --watch",
+        "lint": "npx stylelint **/*.css, **/*.scss --fix",
         "dev": "vite",
         "tsc": "tsc"
     },
@@ -16,13 +19,19 @@
         "laravel-vite-plugin": "^1.2.0",
         "postcss": "^8.4.47",
         "sass": "^1.83.4",
-        "tailwindcss": "^3.4.13",
+        "stylelint": "^16.14.1",
+        "stylelint-config-recommended": "^15.0.0",
+        "stylelint-config-standard": "^37.0.0",
+        "stylelint-config-standard-scss": "^14.0.0",
         "typescript": "^5.7.3",
         "vite": "^6.0.11"
     },
     "dependencies": {
         "@inertiajs/react": "^2.0.3",
+        "@tailwindcss/postcss": "^4.0.1",
+        "@tailwindcss/vite": "^4.0.1",
         "react": "^19.0.0",
-        "react-dom": "^19.0.0"
+        "react-dom": "^19.0.0",
+        "tailwindcss": "^4.0.1"
     }
 }

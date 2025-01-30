@@ -10,15 +10,15 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.bunny.net">
     <link href="https://fonts.bunny.net/css?family=figtree:400,500,600&display=swap" rel="stylesheet" />
+    <!-- <link href="/resources/css/app.css" rel="stylesheet"> -->
 
     <!-- Styles / Scripts -->
     @viteReactRefresh
-    @inertiaHead
     @if (file_exists(public_path('build/manifest.json')) || file_exists(public_path('hot')))
-    @vite(['resources/css/app.css', 'resources/scss/app.scss', 'resources/js/app.tsx'])
+    @vite(['resources/scss/app.scss', 'resources/js/app.tsx', 'resources/js/Pages/Test.tsx'])
     @inertiaHead
     @else
-    <style>
+    <!-- <style>
         /* ! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com */
         *,
         :before,
@@ -1210,7 +1210,7 @@
                 color: rgb(209 213 219 / var(--tw-text-opacity, 1))
             }
         }
-    </style>
+    </style> -->
     @endif
 </head>
 
